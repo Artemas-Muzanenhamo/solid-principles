@@ -123,3 +123,7 @@ the class and replace those methods with completely different implementations th
 use completely different fields that are completely different types and none of the 
 objects that use your class should know that that change has happened.
 - A given Class shouldn't know who's talking to it (Abstraction).
+
+# Defining Behaviour and State()
+
+
