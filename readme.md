@@ -32,7 +32,9 @@ the code.
     you are creating an accounting app then we would expect objects on the order of 
     `Ledger`, `Debit`, `Credit` and things that make sense to an accountant).
     
-![User-to-Code](https://user-images.githubusercontent.com/29547780/33953423-cf8ced24-e02c-11e7-9f56-7c2d8505ee0a.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/29547780/33953423-cf8ced24-e02c-11e7-9f56-7c2d8505ee0a.png"></img>
+</p>
 
 The only way to get transparency, however, is to start with the user and work your way down 
 to the hardware. In other words, the highest level objects should all be things that make sense 
