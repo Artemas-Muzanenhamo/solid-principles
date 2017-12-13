@@ -38,3 +38,7 @@ The only way to get transparency, however, is to start with the user and work yo
 to the hardware. In other words, the highest level objects should all be things that make sense 
 to your users. Things like databases and UI stuff should be buried deep in the code where nobody 
 but you has to look at them.
+
+### Simplicity
+
+- The Code should do EXACTLY what is necessary and nothing more!
