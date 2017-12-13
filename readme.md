@@ -97,3 +97,29 @@ we do not know how the object works.
 
 ### Single Responsibility
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/29547780/33959205-9f888aa4-e03e-11e7-8c8d-76ee65319f21.png"></img>
+</p>
+
+- An object should be responsible for doing only one thing.
+- Every module or class should have responsibility over a single part of the 
+functionality provided by the software, and that responsibility should be 
+entirely encapsulated by the class.
+- All of the functions are focused on particular job or a single objective.
+
+### How do the objects interact with one another?
+
+- The concept here is that the `object should ask for help` and `not for information`.
+- If we are asking for information from objects then we have much tighter coupling.
+- The `object` that has the information does the work for us. This principle is called
+`Delegation`.
+- It is more suitable to push information to an object than it is pulling from an object.
+-  The basic idea is that it should be possible at all times to radically change the 
+implementation of some class without impacting the clients, without impacting any of 
+the objects that use that class. In other words, you ought to be able to throw out 
+everything except the public interface. You ought to be able to throw out all of the 
+fields, you ought to be able to throw out the implementation of every method inside 
+the class and replace those methods with completely different implementations that 
+use completely different fields that are completely different types and none of the 
+objects that use your class should know that that change has happened.
+- A given Class shouldn't know who's talking to it (Abstraction).
