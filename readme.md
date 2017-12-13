@@ -79,13 +79,21 @@ change one of those functions, you're going to have to go look at the other one 
 as we can.
 
 ### Messages
-
 - Objects send messages to one another.
 
 ### Methods
-
 - Handle messages.
 
 ### Functions
+- Do arbitrary work.
 
-- do arbitrary work.
+## What is an Object?
+
+- It is a black box.
+- Objects are defined by what they `DO` not what they `contain`.
+- They have responsibilities such as doing cohesive/coherent operations.
+- The concept is `Data Abstraction` or `Implementation Hiding` in other words
+we do not know how the object works.
+
+### Single Responsibility
+
