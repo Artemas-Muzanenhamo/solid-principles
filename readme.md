@@ -45,7 +45,7 @@ but you has to look at them.
 
 - The Code should do EXACTLY what is necessary and nothing more!
 
-## Build and Design Incrementally
+### Build and Design Incrementally
 
 - We should be designing and building incrementally, one small piece at a time.
 - Generally big upfront designs are never correct and that places us in situations such as:
