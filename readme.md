@@ -42,3 +42,11 @@ but you has to look at them.
 ### Simplicity
 
 - The Code should do EXACTLY what is necessary and nothing more!
+
+## Build and Design Incrementally
+
+- We should be designing and building incrementally, one small piece at a time.
+- Generally big upfront designs are never correct and that places us in situations such as:
+    - Either we have to write a lot of code that is more complex than necessary because it's supporting an incorrect design. 
+    - Or we have to go back and modify code that we wrote earlier because we wrote it based on incorrect assumptions.
+- So the best approach is to design incrementally.
