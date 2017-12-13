@@ -52,3 +52,40 @@ but you has to look at them.
     - Either we have to write a lot of code that is more complex than necessary because it's supporting an incorrect design. 
     - Or we have to go back and modify code that we wrote earlier because we wrote it based on incorrect assumptions.
 - So the best approach is to design incrementally.
+
+## Coherence (Cohesion)
+
+*Cohesion is defined as the degree to which all elements of a module, class, or component work together as a functional unit. 
+High cohesion is good, and low cohesion is bad.*
+
+- Group members are related.
+- We should maximise cohesion
+    - All members of a public methods class should form a cohesive group (a group of related members).
+    - They should be related to each other in terms of what they are doing.
+    - The methods and fields of a Class should focus on solving a specific
+    and particular problem.
+    
+## Coupling
+
+On the flip side of cohesion is coupling. Coupling is defined as the degree of interdependence 
+between two or more classes, modules, or components. Tight coupling is bad, and loose coupling is good.
+
+- A change to one thing affects another thing.
+- A good example of undesired coupling would be a global variable in a program. The problem here is not so much the 
+variable as the things that use the variable. If two functions or two methods share a global variable, then if you 
+change one of those functions, you're going to have to go look at the other one as well.
+- Maximise cohesion and minimise coupling.
+- We cannot eliminate coupling entirely but we should aim to limit it as much
+as we can.
+
+### Messages
+
+- Objects send messages to one another.
+
+### Methods
+
+- Handle messages.
+
+### Functions
+
+- do arbitrary work.
