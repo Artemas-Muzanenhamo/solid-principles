@@ -8,6 +8,11 @@ public class Money {
         this.value = value;
     }
 
+    /**
+     * The Getters and Setters expose the implementations
+     * of our object by showing that our value is a double.
+     */
+
     public double getValue(){
         return value;
     }
